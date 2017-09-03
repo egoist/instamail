@@ -4898,9 +4898,9 @@ vue-loader@^13.0.0:
     vue-style-loader "^3.0.0"
     vue-template-es2015-compiler "^1.5.3"
 
-vue-monaco@^0.1.3:
-  version "0.1.3"
-  resolved "https://registry.npmjs.org/vue-monaco/-/vue-monaco-0.1.3.tgz#d393baaaf8b8734c21c83b9c8312701041ade3c0"
+vue-monaco@^0.1.4:
+  version "0.1.4"
+  resolved "https://registry.npmjs.org/vue-monaco/-/vue-monaco-0.1.4.tgz#cbf7c683225c5f259377e686cb4aab76d59e9d1a"
   dependencies:
     nano-assign "^1.0.0"
 

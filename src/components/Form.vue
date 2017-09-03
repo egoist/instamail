@@ -34,10 +34,8 @@
         v-model="content"
         :options="editorOptions"
         @editorMount="handleEditorMount"
+        placeholder="Loading editor..."
       />
-      <div v-if="!editorMounted" style="padding:10;x">
-        Loading editor...
-      </div>
     </div>
     <div class="form-action">
       <button
@@ -72,8 +70,7 @@ export default {
         minimap: {
           enabled: false
         }
-      },
-      editorMounted: false
+      }
     }
   },
 
@@ -108,7 +105,6 @@ export default {
     },
 
     handleEditorMount(e) {
-      this.editorMounted = true
       e.model.updateOptions({
         tabSize: 2
       })
