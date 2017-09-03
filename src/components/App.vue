@@ -8,11 +8,9 @@
 
 <script>
 import Form from '@/components/Form.vue'
-import Sidebar from '@/components/Sidebar.vue'
 
 export default {
   components: {
-    'im-sidebar': Sidebar,
     'im-form': Form
   }
 }
