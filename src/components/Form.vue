@@ -12,7 +12,7 @@
         <input
           type="email"
           class="control"
-          placeholder="From"
+          placeholder="From (optional)"
           v-model="from"
         >
       </div>
