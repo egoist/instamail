@@ -18,15 +18,13 @@ export default {
 }
 </script>
 
-<style src="typeface-roboto/index.css"></style>
-
 <style>
 html, body, #app, .page, .sidebar, .main {
   height: 100%;
 }
 
 body {
-  font: 14px/1.4 Roboto;
+  font: 14px/1.4 -apple-system,BlinkMacSystemFont,"Segoe UI","Roboto", "Oxygen","Ubuntu","Cantarell","Fira Sans","Droid Sans", "Helvetica Neue",sans-serif;
   background: #f0f0f0;
   margin: 0;
 }

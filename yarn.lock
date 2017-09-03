@@ -4691,10 +4691,6 @@ type-is@~1.6.15:
     media-typer "0.3.0"
     mime-types "~2.1.15"
 
-typeface-roboto@^0.0.35:
-  version "0.0.35"
-  resolved "https://registry.npmjs.org/typeface-roboto/-/typeface-roboto-0.0.35.tgz#5965d3f6d4cd72b7b2833d6b7d42c9b59b8392ba"
-
 uglify-js@3.0.x:
   version "3.0.28"
   resolved "https://registry.npmjs.org/uglify-js/-/uglify-js-3.0.28.tgz#96b8495f0272944787b5843a1679aa326640d5f7"
