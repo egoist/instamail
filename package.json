@@ -1,6 +1,7 @@
 {
   "name": "instamail",
   "productName": "InstaMail",
+  "description": "Send mail to anyone, instantly, anonymously.",
   "private": true,
   "version": "1.0.0",
   "scripts": {
