@@ -16,7 +16,7 @@
     "axios": "^0.16.2",
     "marked3": "^0.5.1",
     "native-toast": "^1.2.1",
-    "vue-monaco": "^0.1.4"
+    "vue-monaco": "^0.1.5"
   },
   "devDependencies": {
     "monaco-editor": "^0.10.0",

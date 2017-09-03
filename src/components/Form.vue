@@ -29,12 +29,11 @@
       <monaco-editor
         ref="monaco"
         style="height: 100%;width:100%;"
-        placeholder="content"
         language="markdown"
         v-model="content"
         :options="editorOptions"
         @editorMount="handleEditorMount"
-        placeholder="Loading editor..."
+        :placeholder="placeholder"
       />
     </div>
     <div class="form-action">
@@ -63,14 +62,17 @@ export default {
       from: '',
       to: '',
       subject: '',
-      content: 'Send email anonymously...\n\npifff, it supports markdown too!',
+      content: 'Send email anonymously...\n\npifff, it supports **markdown** too!',
       sending: false,
       editorOptions: {
         lineNumbers: false,
         minimap: {
           enabled: false
         }
-      }
+      },
+      placeholder: this.$createElement('div', {
+        style: 'padding: 5px 10px'
+      }, 'Loading editor...')
     }
   },
 
