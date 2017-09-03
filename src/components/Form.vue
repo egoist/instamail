@@ -62,7 +62,7 @@ export default {
       from: '',
       to: '',
       subject: '',
-      content: 'Send email anonymously...',
+      content: 'Send email anonymously...\n\npifff, it supports markdown too!',
       sending: false,
       editorOptions: {
         lineNumbers: false,
